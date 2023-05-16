@@ -17,7 +17,7 @@ namespace Xamarin_App.Services
         public string apiKey 
         {
             get { 
-                return "11303e234269a05903a805d2d22b95d59ce0a1ffa4b33f470b19e108efe5313b"; //API Key
+                return ""; //API Key
             }
         }
 
@@ -25,7 +25,7 @@ namespace Xamarin_App.Services
         {
             get
             {
-                return "NJm4KUUt7LVCbkkL3eDWZ2k046I08wuHAXFFELe+ZSA="; //
+                return ""; //Secret key
             }
         }
 
@@ -33,7 +33,7 @@ namespace Xamarin_App.Services
         {
             get
             {
-                return "czTZW82KOqjtR8/8d1xZdl4kM4qUZ2ZhTXexe8eP0MY=";
+                return ""; // Signature
             }
         }
 
