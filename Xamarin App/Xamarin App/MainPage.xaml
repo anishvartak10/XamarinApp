@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_App.MainPage">
+
+    <StackLayout>
+        <Button Text="Biomentric Login" Clicked="Button_Clicked"/>
+        <!--<Button Text="Create Account" Clicked="CreateAccount_Clicked" /> -->
+
+        <Button Text="Read Tag" Clicked="Button_Clicked_StartListening" />
+        <Button Text="Stop Listener" Clicked="Button_Clicked_StopListening"/>
+    </StackLayout>
+
+</ContentPage>
